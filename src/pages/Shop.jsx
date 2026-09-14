@@ -1,5 +1,9 @@
 import { useCart } from "../components/CartContext";
-import heroImage from "../assets/hero.png";
+
+import product1 from "../assets/product1.jpg";
+import product2 from "../assets/product2.jpg";
+import product3 from "../assets/product3.jpg";
+import product4 from "../assets/product4.jpg";
 
 function Shop() {
   const { addToCart } = useCart();
@@ -9,25 +13,25 @@ function Shop() {
       name: "Velora Classic",
       category: "Signature Collection",
       price: "$89",
-      image: heroImage,
+      image: product1,
     },
     {
       name: "Modern Form",
       category: "Essential Collection",
       price: "$119",
-      image: heroImage,
+      image: product2,
     },
     {
       name: "Pure Edition",
       category: "Limited Collection",
       price: "$149",
-      image: heroImage,
+      image: product3,
     },
     {
       name: "Luxe Essential",
       category: "Premium Collection",
       price: "$179",
-      image: heroImage,
+      image: product4,
     },
   ];
 
@@ -51,6 +55,7 @@ function Shop() {
           <article className="shop-product" key={product.name}>
             <div className={`shop-product-image product-${index + 1}`}>
               <img src={product.image} alt={product.name} />
+
               <span>0{index + 1}</span>
             </div>
 
