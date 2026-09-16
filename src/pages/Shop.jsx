@@ -12,7 +12,7 @@ function Shop() {
     {
       name: "Velora Classic",
       category: "Signature Collection",
-      price: "$89",
+      price: "$189",
       image: product1,
     },
     {
