@@ -65,14 +65,75 @@ The visual system is designed to create a premium, modern, and elegant e-commerc
 
 ## 📸 Screenshots
 
-The project includes desktop and mobile screenshots for:
+### 🏠 Home
 
-- Home
-- About
-- Shop
-- Collections
-- Contact
-- Cart
+**Desktop**
+
+![VELORA Home Desktop](screenshots/home-desktop.png)
+
+**Mobile**
+
+![VELORA Home Mobile](screenshots/home-mobile.png)
+
+---
+
+### 📖 About
+
+**Desktop**
+
+![VELORA About Desktop](screenshots/about-desktop.png)
+
+**Mobile**
+
+![VELORA About Mobile](screenshots/about-mobile.png)
+
+---
+
+### 🛍️ Shop
+
+**Desktop**
+
+![VELORA Shop Desktop](screenshots/shop-desktop.png)
+
+**Mobile**
+
+![VELORA Shop Mobile](screenshots/shop-mobile.png)
+
+---
+
+### ✨ Collections
+
+**Desktop**
+
+![VELORA Collections Desktop](screenshots/collections-desktop.png)
+
+**Mobile**
+
+![VELORA Collections Mobile](screenshots/collections-mobile.png)
+
+---
+
+### 📩 Contact
+
+**Desktop**
+
+![VELORA Contact Desktop](screenshots/contact-desktop.png)
+
+**Mobile**
+
+![VELORA Contact Mobile](screenshots/contact-mobile.png)
+
+---
+
+### 🛒 Cart
+
+**Desktop**
+
+![VELORA Cart Desktop](screenshots/cart-desktop.png)
+
+**Mobile**
+
+![VELORA Cart Mobile](screenshots/cart-mobile.png)
 
 ## 📁 Project Structure
 
@@ -103,6 +164,20 @@ velora-ecommerce/
 │   ├── App.jsx
 │   ├── App.css
 │   └── main.jsx
+│
+├── screenshots/
+│   ├── home-desktop.png
+│   ├── home-mobile.png
+│   ├── about-desktop.png
+│   ├── about-mobile.png
+│   ├── shop-desktop.png
+│   ├── shop-mobile.png
+│   ├── collections-desktop.png
+│   ├── collections-mobile.png
+│   ├── contact-desktop.png
+│   ├── contact-mobile.png
+│   ├── cart-desktop.png
+│   └── cart-mobile.png
 │
 ├── public/
 ├── package.json
